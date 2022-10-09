@@ -1,0 +1,107 @@
+
+-----window.location
+
+https://www.freecodecamp.org/espanol/news/metodos-window-de-javascript-explicados-con-ejemplos/
+
+
+_______---History
+https://www.javascripttutorial.net/javascript-bom/javascript-history/
+
+
+
+
+---------- sweetAlert2
+https://sweetalert2.github.io/
+
+<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+
+
+
+----
+
+
+
+
+fechas dey
+https://momentjs.com/docs/#/displaying/difference/
+https://moment.github.io/luxon/#/why
+
+<script src="https://cdn.jsdelivr.net/npm/luxon@3.0.3/build/global/luxon.min.js"></script>
+
+_____________________---
+
+pasar datos y porque renderiza la pagina pero no carga el evento
+
+/* Repaso funciones sintaxis normal, anonima, flecha */ => https://es.javascript.info/function-basics
+
+Creación de un elemento HTML con JavaScript
+el método .createElement()
+
+
+ajuste de propiedades/atributos del elemento HTML => https://developer.mozilla.org/es/docs/Web/API/Element/setAttribute 
+
+
+el método .appendChild() https://www.w3schools.com/jsref/met_node_appendchild.asp
+el método .append() // insertar un array de elementos creados
+
+el método .remove()
+
+armar el DOM HTML a partir de la creación de un elemento dinámico
+leer un array de objetos.
+pedir datos por un form
+Ejercitación: (40 minutos) crear y remover elementos HTML de forma dinámica
+
+
+
+arrays => https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array
+ciclos => https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration
+operadores => https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators
+tipos de datos => https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures
+estructura de control de flujo (if, else, else if) => https://uniwebsidad.com/libros/javascript/capitulo-3/estructuras-de-control-de-flujo
+
+articulo para entender porque no se usa var => https://es.javascript.info/var
+
+
+eventos en js => https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
+localStorage => https://developer.mozilla.org/es/docs/Web/API/Window/localStorage
+
+
+ * Materialize v1.0.0 (http://materializecss.com)
+ * Copyright 2014-2017 Materialize
+ * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
+
+
+
+
+--------------------------------------------------
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
+From Me to Everyone 08:27 PM
+me podrias mostrar lo de then()   después
+lo que me explicaste
+gracias
+From Nahuel Denezio to Everyone 08:31 PM
+que tema es mathi
+no dije nada
+From Untref CUCH to Everyone 08:36 PM
+Proyectos: ⇒ fetch, dom, generar elementos dinamicamente, asociar eventos, uso de arrays - objetos para estructurar la información, localStorage
+
+calculadora de propinas
+
+**inicio de sesión. Autenticación**
+
+**lista de tareas**
+
+Ecomerce ⇒  [https://fakestoreapi.com/](https://fakestoreapi.com/)
+
+Cotizador
+Ejercicios cortos ⇒ ([https://practity.com/es/js/](https://practity.com/es/js/))
+
+[https://multimedia.uoc.edu/blogs/pw/es/2013/09/17/exercicis-de-javascript-iniciacio/](https://multimedia.uoc.edu/blogs/pw/es/2013/09/17/exercicis-de-javascript-iniciacio/)
+
+[https://github.com/parakawa/Ejercicios-js](https://github.com/parakawa/Ejercicios-js)
+
+[https://www.arkaitzgarro.com/javascript/capitulo-18.html](https://www.arkaitzgarro.com/javascript/capitulo-18.html)
+
+

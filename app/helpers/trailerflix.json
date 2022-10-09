@@ -1,0 +1,181 @@
+[
+   {
+      "id": 3,
+      "poster": "./posters/3.jpg",
+      "nombre": "tV 22  Samsunglorian",
+      "categoria": "TV",
+            "resumen": "Ambientada tras la caída del Imperio y antes de la aparición de la Primera Orden, la serie sigue los pasos de un pistolero solitario en las aventuras que protagoniza en los confines de la galaxia, donde no alcanza la autoridad de la Nueva República.",
+      "stock": "2"
+      ,"precio":"100"
+      
+   },
+   {
+      "id": 4,
+      "poster": "./posters/4.jpg",
+      "nombre": "tV 24  Samsunglla Academy",
+      "categoria": "TV",
+            "resumen": "La muerte de su padre reúne a unos hermanos distanciados y con extraordinarios poderes que descubren impactantes secretos y una amenaza que se cierne sobre la humanidad.",
+      "stock": "1"
+     ,"precio":"100"
+   },
+
+   {
+      "id": 2,
+      "poster": "./posters/2.jpg",
+      "nombre": "tV 30  Samsung",
+      "categoria": "TV",
+           "resumen": "El paso a la edad adulta incluye sexo, romance, escuela y familia. Para Archie y sus amigos, también hay misterios oscuros.",
+      "stock": "5"
+            ,"precio":"100"},
+   
+   {
+      "id": 6,
+      "poster": "./posters/6.jpg",
+      "nombre": "tV 22  lg",
+      "categoria": "TVula",
+           "resumen": "La hermana menor de Sherlock, descubre que su madre ha desaparecido y se dispone a encontrarla. En su búsqueda, saca a relucir el sabueso que corre por sus venas y se encuentra con una conspiración que gira en torno a un misterioso lord, demostrando que su ilustre hermano no es el único talento en la familia.",
+      "stock": "3"
+      ,"precio":"100"
+   },
+
+      {"id": 8,
+      "poster": "./posters/8.jpg",
+      "nombre": "tV 60 pulgadas  Samsung ",
+      "categoria": "TVula",
+           "resumen": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
+      "stock": "3",
+   "precio":"100"},
+   {
+      "id": 9,
+      "poster": "./posters/9.jpg",
+      "nombre": "tV 60 pulgadas  lg",
+      "categoria": "TV",
+            "resumen": "En un mundo fantástico y en un contexto medieval varias familias, relativas a la nobleza, se disputan el poder para dominar el territorio ficticio de Poniente (Westeros) y tomar el control de los Siete Reinos desde el Trono de Hierro, lugar donde el rey ejerce el poder.",
+      "stock": "8"
+     ,"precio":"100"
+   },
+   {
+      "id": 10,
+      "poster": "./posters/10.jpg",
+      "nombre": "tV 60 pulgadas  hp",
+      "categoria": "TV",
+            "resumen": "Sigue las veloces aventuras de Barry Allen, un joven común y corriente con el deseo latente de ayudar a los demás. Cuando una inesperada partícula aceleradora golpea por accidente a Barry, de pronto se encuentra cargado de un increíble poder para moverse a increíbles velocidades. Mientras Barry siempre ha tenido el alma de un héroe, sus nuevos poderes le han dado la capacidad de actuar como tal.",
+      "stock": "6"
+    ,"precio":"100"
+   },
+   {
+      "id": 11,
+      "poster": "./posters/11.jpg",
+      "nombre": "mouse lg",
+      "categoria": "TV",
+      
+      "resumen": "Leonard y Sheldon son dos físicos que comparten trabajo y apartamento. La serie comienza con la mudanza de Penny, su nueva y atractiva vecina, y hace hincapié en la dificultad de los físicos para relacionarse con personas fuera de su entorno para dar lugar a situaciones cómicas.",
+      "stock": "12"
+     ,"precio":"100"
+   },
+   {
+      "id": 12,
+      "poster": "./posters/12.jpg",
+      "nombre": "mouse TT",
+      "categoria": "TV",
+          "resumen": "'Friends' narra las aventuras y desventuras de seis jóvenes de Nueva York: Rachel, Monica, Phoebe, Ross, Chandler y Joey. Ellos forman una unida pandilla de amigos que viven en Manhattan y que suelen reunirse en sus apartamentos o en su bar habitual cafetería, el Central Perk. A pesar de los numerosos cambios que se producen en sus vidas, su amistad es inquebrantable en la dura batalla por salir adelante en sus periplos profesionales y personales.",
+      "stock": "10"
+         ,"precio":"100"},
+   {
+      "id": 13,
+      "poster": "./posters/13.jpg",
+      "nombre": "notebook 22  Samsung ",
+      "categoria": "TV",
+          "resumen": "Anne Shirley es una niña huérfana que vive en un pequeño pueblo llamado Avonlea que pertenece a la Isla del Príncipe Eduardo, en el año 1890. Después de una infancia difícil, donde fue pasando de orfanato a hogares de acogida, es enviada por error a vivir con una solterona y su hermano. Cuando cumple 13 años, Anne va a conseguir transformar su vida y el pequeño pueblo donde vive gracias a su fuerte personalidad, intelecto e imaginación. Basada en la inolvidable novela.",
+      "stock": "2"
+   ,"precio":"100"},
+
+   
+   {
+      "id": 21,
+      "poster": "./posters/21.jpg",
+      "nombre": "tV 22  Samsung The next level",
+      "categoria": "TVula",
+      
+      "stock": "8"
+      ,"precio":"100"
+   },
+ 
+   {
+      "id": 24,
+      "poster": "./posters/24.jpg",
+      "nombre": "tV 22  Samsungegra",
+      "categoria": "TVula",
+      
+      "resumen": "T’Challa (Chadwick Boseman) regresa a su hogar en la apartada nación africana de Wakanda para servir como líder de su país. Tras suceder a su padre en el trono, pasa a convertirse en Pantera Negra, una sigilosa criatura de la noche, con agudos sentidos felinos y otras habilidades como súper fuerza e inteligencia, agilidad, estrategia o maestro del combate sin armas. Es bajo el liderazgo de T’Challa como Wakanda consigue convertirse en una de las naciones más ricas y tecnológicamente avanzadas del planeta.",
+      "stock": "6"
+,"precio":"100"
+   },
+   {
+      "id": 25,
+      "poster": "./posters/25.jpg",
+      "nombre": " Sillón Pro Gamer Legend ",
+      "categoria": "TVula",
+            "resumen": "Los ganadores del Premio de la Academia® Matt Damon y Christian Bale protagonizan CONTRA LO IMPOSIBLE, basada en la historia real del visionario diseñador americano de automóviles Carroll Shelby (Damon) y el intrépido piloto británico Ken Miles (Bale). Juntos construyen un nuevo coche de carreras para Ford Motor Company y así enfrentar a Enzo Ferrari en las 24 Horas de Le Mans en Francia en 1966.",
+      "stock": "11"
+      ,"precio":"100"
+   },
+   {
+      "id": 26,
+      "poster": "./posters/26.jpg",
+      "nombre": "tV 22  Samsungos",
+      "categoria": "TVula",
+           "resumen": "Una joven pareja estadounidense viaja a las montañas árticas de Noruega. Después de detenerse durante una tormenta de nieve, se despiertan atrapados en su SUV, enterrados bajo capas de nieve y hielo.",
+      "stock": "5"
+       ,"precio":"100"},
+   {
+      "id": 27,
+      "poster": "./posters/27.jpg",
+      "nombre": "tV 22  Samsungquilación",
+      "categoria": "TVula",
+         "resumen": "Doom: Aniquilación sigue a un grupo de marines espaciales que han respondido a una llamada de alerta de una base en la luna marciana, solo para descubrir que ha sido tomada por criaturas demoníacas que amenazan con desatar el infierno en la tierra.",
+      "stock": "4"
+,"precio":"100"
+   },
+
+
+   {
+      "id": 31,
+      "poster": "./posters/31.jpg",
+      "nombre": "tV 22  Samsunga",
+      "categoria": "TVula",
+          "resumen": "Un programador multimillonario selecciona a Caleb, un joven empleado de su empresa, para que pase una semana en un lugar remoto con el objetivo de que participe en un test en el que estará involucrada su última creación: un robot-mujer en el que inteligencia artificial lo es todo.",
+      "stock": "5"
+  ,"precio":"100"
+   },
+   {
+      "id": 32,
+      "poster": "./posters/32.jpg",
+      "nombre": "tV 22  SamsungWorld",
+      "categoria": "TVula",
+      "resumen": "Veintidós años después de lo ocurrido en Jurassic Park, la isla Nublar ha sido transformada en un enorme parque temático, Jurassic Wold, con versiones «domesticadas» de algunos de los dinosaurios más conocidos. Cuando todo parece ir sobre ruedas y ser el negocio del siglo, un nuevo dinosaurio de especie desconocida, pues ha sido creado manipulando genéticamente su ADN, y que resulta ser mucho más inteligente de lo que se pensaba, se escapa de su recinto y comienza a causar estragos entre los visitantes del Parque.",
+      "stock": "6"
+  ,"precio":"100"},
+   {
+      "id": 33,
+      "poster": "./posters/33.jpg",
+      "nombre": "tV 22  Samsungda",
+      "categoria": "TVula",
+      "stock": "4"
+   ,"precio":"100"},
+   {
+      "id": 34,
+      "poster": "./posters/34.jpg",
+      "nombre": "tV 22  Samsung hombre en la luna",
+      "categoria": "TVula",
+      "stock": "3"
+   ,"precio":"100"},
+   {
+      "id": 35,
+      "poster": "./posters/35.jpg",
+      "nombre": "tV 22  Samsungel pacífico - La insurrección",
+      "categoria": "TVula",
+      "stock": "7"
+   ,"precio":"100"
+   }
+]
