@@ -4,10 +4,10 @@ export const ajax=async ( props) =>{
              urlC, } =props;
     
     let datos= await fetch(urlC )
-    console.log("preparado Conecion A", datos);
+    console.log("ajax datos");
    
     let ps= await datos.json() 
-    console.log("ps Data", ps);
+    console.log("proceso Data");
     // crearPs(ps)
 
     return ps

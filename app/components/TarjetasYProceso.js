@@ -9,7 +9,6 @@ export const crearProducto =async(tf)=>{
     
 
 
-    console.log("inicia crear : ",tf);
     let sumaP = new DocumentFragment
    
 
@@ -24,7 +23,6 @@ export const crearProducto =async(tf)=>{
         for ( const untf of tf) {
         
         
-            console.log("titulossss: ",untf.titulo);
             let div22 = document.createElement('div');
              div22.id = untf.id;
            div22.className = 'contenedor';

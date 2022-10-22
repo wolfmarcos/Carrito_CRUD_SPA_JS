@@ -42,23 +42,15 @@ nav.innerHTML=`
     <ul class="menu_items">
         
             <input class="navInput" type="text" placeholder="  Buscar" >
-                  
-     
+
         <li>
             <a class="reg" >login/registro</a>
         </li>
         <li>
-            <!-- <a href="#">CATEGORIAS</a>> -->
-            <select class="select1">
-                <optgroup aria-placeholder="genero" label="Tipo De">
-              
-                <option>Gebetos</option>
-
-                </optgroup>
-
-                </select>
+        <select class="format" name="format" id="format">
+        <option value="">Categotias</option>
+        </select>
         </li>
-   
     </ul>
 </lu>
 

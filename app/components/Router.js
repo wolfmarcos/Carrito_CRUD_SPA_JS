@@ -1,12 +1,13 @@
 
 import { funcionBuscarP } from "./BuscadorProceso.js";
 import { Descrpcion } from "./DescripcionRender.js";
-import { Carritox } from "./Carritox.js";
+import { sertifiCarrutoBD } from "./Carritox.js";
 import { crearProducto } from "./TarjetasYProceso.js";
 import { ajax } from "../helpers/ajax.js";
 import url from "../helpers/urls.js";
+import { funcionCategotia } from "./Categoria.js";
 let arrayP2=JSON.parse(localStorage.getItem("arrayP1")) 
-
+funcionCategotia
 
 export const Router = async () => {
     let objeto = await ajax(url)
@@ -17,11 +18,11 @@ export const Router = async () => {
 if (hash == "" || hash == "#/") {
     
    
-    crearProducto(objeto)
-
-     funcionBuscarP(objeto)
-
-
+  
+    funcionBuscarP(objeto)
+     funcionCategotia(objeto)
+     crearProducto(objeto)
+   
 }else if (hash ==`#/descripcion/${arrayP2.id}`){
 //   let main= document.querySelector(".main")
 //    main.innerHTML=""
@@ -39,7 +40,7 @@ else if (hash ==`#/carrito`){
     //   let main= document.querySelector(".main")
     //    main.innerHTML=""
     let sertificaBD = await ajax(url)
-       let carro=  Carritox(arrayP2.id,sertificaBD)
+     sertifiCarrutoBD(arrayP2.id,sertificaBD)
        
      
         // document.querySelector(".main").appendChild(carro)
