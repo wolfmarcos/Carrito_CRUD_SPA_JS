@@ -1,4 +1,5 @@
- import { sertifiCarrutoBD } from "./Carritox.js";
+ import { sumaCarro } from "./carritoClik.js";
+import { sertifiCarrutoBD } from "./Carritox.js";
 
 // import { Carritox } from "./AlCarro.js";
 export const Descrpcion= (untf,sertificaBD) => {
@@ -35,6 +36,7 @@ let sa=(e)=>{
         // Carritox(untf.id)
         // location.href="#/carrito"
         sertifiCarrutoBD(untf.id,sertificaBD)
+        sumaCarro()
       }
     })
        

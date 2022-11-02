@@ -52,16 +52,19 @@ nav.innerHTML=`
         </select>
         </li>
         <div class="carroItem">
-    
+
+   
 
    
         
+        <div class="cantidad"> </div>
 
-
-    
-        <i class=" a fa fa-shopping-cart carro" aria-hidden="true"></i>
        
-        
+        <i class=" a fa fa-shopping-cart carro" aria-hidden="true">
+       
+        </i>
+       
+       
 
         </div>
         <div class="carroDato a">      <div>

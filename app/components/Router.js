@@ -6,7 +6,7 @@ import { crearProducto } from "./TarjetasYProceso.js";
 import { ajax } from "../helpers/ajax.js";
 import url from "../helpers/urls.js";
 import { funcionCategotia } from "./Categoria.js";
-import { carritoClick } from "./carritoClik.js";
+import { carritoClick ,sumaCarro} from "./carritoClik.js";
 let arrayP2=JSON.parse(localStorage.getItem("arrayP1")) 
 funcionCategotia
 
@@ -19,7 +19,7 @@ export const Router = async () => {
 if (hash == "" || hash == "#/") {
     
     carritoClick()
-  
+    sumaCarro()
      funcionBuscarP(objeto)
      funcionCategotia(objeto)
      crearProducto(objeto)
@@ -27,6 +27,11 @@ if (hash == "" || hash == "#/") {
 }else if (hash ==`#/descripcion/${arrayP2.id}`){
 //   let main= document.querySelector(".main")
 //    main.innerHTML=""
+
+carritoClick()
+sumaCarro()
+funcionBuscarP(objeto)
+funcionCategotia(objeto)
 let sertificaBD = await ajax(url)
 // sertifiCarrutoBD(arrayP2.id,sertificaBD)
    let descri=  Descrpcion( arrayP2,sertificaBD)

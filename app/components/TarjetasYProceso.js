@@ -64,7 +64,9 @@ export const crearProducto =async(tf)=>{
         let strObjet=JSON.stringify(untf)
         console.log(strObjet)
         localStorage.setItem("arrayP1",strObjet)
+       if (strObjet===localStorage.getItem("arrayP1")) {
         location.href=`#/descripcion/${untf.id}`
+       } 
     });
     
           sumaP.append(div22)

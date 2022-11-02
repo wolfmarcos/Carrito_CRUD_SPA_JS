@@ -11,24 +11,17 @@ export let sertifiCarrutoBD = (param, bd) => {
 
 
 let sertificaBD = bd.find((e) => e.id == param);
-// let a={}
-// let sssssssssb="sertificaBD"
-// a={...{sssssssssb} , ...{sertificaBD}}
 
-// a.push(sssssssssb)
 console.log("🚀 ~ file: newCarritotox.js ~ line 16666 ~ sertifiCarrutoBD ~ sertificaBD", typeof sertificaBD)
 
   if (sertificaBD==undefined || sertificaBD==null) {
-    console.log(sertificaBD);
+  
   }else{
-    // console.log("🚀 ~ file: newCarritotox.js ~ line 1777777777 ~ sertifiCarrutoBD ~ sertificaBD", sertificaBD)
     
     let newCarrito=new Carrito(sertificaBD);
 
-    // newCarrito.entro()
     newCarrito.agrega();
-    // newCarrito.total();
-    // newCarrito.imprimeProductosAgregado();
+  
   }
  
  

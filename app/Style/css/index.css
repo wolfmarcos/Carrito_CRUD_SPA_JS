@@ -26,7 +26,16 @@ z-index: 100;
 box-shadow: 1px 1px 10px 1px rgb(7, 6, 6);
 background-color: rgb(17, 5, 95);
 }
+.cantidad{
+   padding: 14px; 
+  background-color: rgba(21, 4, 98, 0.317);
+  text-align: center;
+  position: absolute;
+  border-radius: 100px;
+  right: 14px;
 
+  /* background-color: chartreuse; */
+}
 .carritoUnidad{
   display: flex;
   gap: 10px;
@@ -59,11 +68,15 @@ margin: 1%;
   display: block;
   }
   .carroItem{
+    position: relative;
     display: flex;
-    width: 245px;
-    height: 10px;
-   flex-direction: column;
+    /* width: 1px; */
+    /* height: 10px; */
+   /* flex-direction: column; */
   margin: 20px;
+  padding:0 50px ;
+  /* background-color: brown; */
+  
   }
 .carroSepara{ width: 100%;
 height:3px ;

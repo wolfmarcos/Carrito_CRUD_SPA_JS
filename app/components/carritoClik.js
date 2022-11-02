@@ -1,5 +1,23 @@
 import { imprimeProductosAgregado } from "./ImprimirCarro.js";
 
+export let sumaCarro=(p)=>{
+    
+    let productoEnStorage=JSON.parse( localStorage.getItem("productoEnStorage")) || [];
+
+    let redu=productoEnStorage.reduce((acc,p)=>acc+p.cantidad,0)
+    console.log("🚀 ~",redu)
+    let verCarritoButon= document.querySelector(".cantidad");
+   
+    verCarritoButon.innerHTML=""
+   
+    verCarritoButon.innerHTML+=`<h1>${redu}</h1>`
+    console.log("🚀 ~ file: carritoClik.js ~ line 7 ~ sumaCarro ~ productoEnStorage.lenth", productoEnStorage.length)
+
+    
+}
+
+
+
 export let carritoClick=()=>{
     let productoEnStorage=JSON.parse( localStorage.getItem("productoEnStorage")) || [];
    let verCarritoButon= document.querySelector(".carroItem");
@@ -24,6 +42,6 @@ if (true == verCarrito.classList.replace("a", "fR")) {
    
    
    
-   
-    imprimeProductosAgregado(productoEnStorage)
+   imprimeProductosAgregado(productoEnStorage)
+    
 }
