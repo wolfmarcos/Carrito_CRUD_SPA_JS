@@ -1,4 +1,36 @@
+import { Producto } from "../assets/classes/producto.js";
 import { imprimeProductosAgregado } from "./ImprimirCarro.js";
+
+
+
+
+export let ElementoCarrito=()=>{
+
+    
+
+    let verCarrito= document.querySelector(".carroDato");
+
+    verCarrito.addEventListener("click", (e) => {
+        let produ =new Producto
+        console.log(e.target.classList[1],"click")
+   
+    if ("sumar" == e.target.classList[1]) {
+        console.log("sumar");
+      
+    } else if("restar" == e.target.classList[1]){
+console.log("restar");
+    } else if("eliminar" == e.target.classList[1]){
+        console.log("eliminar");
+
+    }else {console.log(e.target.classList[1],"click");}
+
+    
+    
+
+})}
+
+
+
 
 export let sumaCarro=(p)=>{
     

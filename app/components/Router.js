@@ -6,7 +6,7 @@ import { crearProducto } from "./TarjetasYProceso.js";
 import { ajax } from "../helpers/ajax.js";
 import url from "../helpers/urls.js";
 import { funcionCategotia } from "./Categoria.js";
-import { carritoClick ,sumaCarro} from "./carritoClik.js";
+import { carritoClick ,ElementoCarrito,sumaCarro} from "./carritoClik.js";
 let arrayP2=JSON.parse(localStorage.getItem("arrayP1")) 
 funcionCategotia
 
@@ -24,21 +24,22 @@ if (hash == "" || hash == "#/") {
      funcionCategotia(objeto)
      crearProducto(objeto)
    
-}else if (hash ==`#/descripcion/${arrayP2.id}`){
-//   let main= document.querySelector(".main")
-//    main.innerHTML=""
 
+
+}else if (hash ==`#/descripcion/${arrayP2.id}`){
+
+ElementoCarrito()
 carritoClick()
 sumaCarro()
 funcionBuscarP(objeto)
 funcionCategotia(objeto)
 let sertificaBD = await ajax(url)
-// sertifiCarrutoBD(arrayP2.id,sertificaBD)
+
    let descri=  Descrpcion( arrayP2,sertificaBD)
    console.log("🚀 ~ file: Router.js ~ line 30 ~ Router ~ descri", descri)
  
     document.querySelector(".main").appendChild(descri)
- // localStorage.clear
+ 
 
 }
 

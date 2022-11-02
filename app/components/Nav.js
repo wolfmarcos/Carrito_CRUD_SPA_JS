@@ -48,7 +48,7 @@ nav.innerHTML=`
         </li>
         <li>
         <select class="format" name="format" id="format">
-        <option value="">Categotias</option>
+        <option value="">Categorias</option>
         </select>
         </li>
         <div class="carroItem">
