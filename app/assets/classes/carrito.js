@@ -1,3 +1,4 @@
+import { imprimeProductosAgregado } from "../../components/ImprimirCarro.js";
 import { Producto } from "./producto.js";
 
 
@@ -67,6 +68,7 @@ console.log("🚀 ~ file: carrito.4443333333~ index", productoEnStorage)
 
   localStorage.setItem("productoEnStorage",JSON.stringify(productoEnStorage))
 
+  imprimeProductosAgregado(productoEnStorage)
 }
 
 
@@ -89,22 +91,7 @@ document.querySelector(".total").innerHTML=total()
 localStorage.setItem("total",this.total)
 }
 
-imprimeProductosAgregado(){
-  Swal.fire({
-    width: 500,
-    showCloseButton: true,
 
-    focusConfirm: false,
-    confirmButtonText: '<i class="fa fa-thumbs-up"></i> Volver',
-    confirmButtonAriaLabel: "Thumbs up, great!",
-
-    cancelButtonAriaLabel: "Thumbs down",
-    showCancelButton: true,
-    // title: '<strong>Sin Login  y <u> Registro</u></strong>',
-
-    html:(   crearProducto(productoEnStorage)        ),
-  });
-}
 
 }
 

@@ -1,11 +1,12 @@
 
 import { funcionBuscarP } from "./BuscadorProceso.js";
 import { Descrpcion } from "./DescripcionRender.js";
-import { sertifiCarrutoBD } from "./Carritox.js";
+
 import { crearProducto } from "./TarjetasYProceso.js";
 import { ajax } from "../helpers/ajax.js";
 import url from "../helpers/urls.js";
 import { funcionCategotia } from "./Categoria.js";
+import { carritoClick } from "./carritoClik.js";
 let arrayP2=JSON.parse(localStorage.getItem("arrayP1")) 
 funcionCategotia
 
@@ -17,17 +18,18 @@ export const Router = async () => {
     let {hash} = location;
 if (hash == "" || hash == "#/") {
     
-   
+    carritoClick()
   
-    funcionBuscarP(objeto)
+     funcionBuscarP(objeto)
      funcionCategotia(objeto)
      crearProducto(objeto)
    
 }else if (hash ==`#/descripcion/${arrayP2.id}`){
 //   let main= document.querySelector(".main")
 //    main.innerHTML=""
-   
-   let descri=  Descrpcion( arrayP2)
+let sertificaBD = await ajax(url)
+// sertifiCarrutoBD(arrayP2.id,sertificaBD)
+   let descri=  Descrpcion( arrayP2,sertificaBD)
    console.log("🚀 ~ file: Router.js ~ line 30 ~ Router ~ descri", descri)
  
     document.querySelector(".main").appendChild(descri)
@@ -36,17 +38,17 @@ if (hash == "" || hash == "#/") {
 }
 
 
-else if (hash ==`#/carrito`){
-    //   let main= document.querySelector(".main")
-    //    main.innerHTML=""
-    let sertificaBD = await ajax(url)
-     sertifiCarrutoBD(arrayP2.id,sertificaBD)
+// else if (hash ==`#/carrito`){
+//     //   let main= document.querySelector(".main")
+//     //    main.innerHTML=""
+//     let sertificaBD = await ajax(url)
+//      sertifiCarrutoBD(arrayP2.id,sertificaBD)
        
      
-        // document.querySelector(".main").appendChild(carro)
-     // localStorage.clear
+//         // document.querySelector(".main").appendChild(carro)
+//      // localStorage.clear
     
-    }
-console.log(hash);
+//     }
+// console.log(hash);
 
 }

@@ -51,7 +51,21 @@ nav.innerHTML=`
         <option value="">Categotias</option>
         </select>
         </li>
-    </ul>
+        <div class="carroItem">
+    
+
+   
+        
+
+
+    
+        <i class=" a fa fa-shopping-cart carro" aria-hidden="true"></i>
+       
+        
+
+        </div>
+        <div class="carroDato a">      <div>
+        </ul>
 </lu>
 
 </nav>

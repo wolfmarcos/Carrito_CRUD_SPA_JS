@@ -1,6 +1,7 @@
+ import { sertifiCarrutoBD } from "./Carritox.js";
 
 // import { Carritox } from "./AlCarro.js";
-export const Descrpcion= (untf) => {
+export const Descrpcion= (untf,sertificaBD) => {
   
 
 
@@ -32,7 +33,8 @@ let sa=(e)=>{
           'success'
         )
         // Carritox(untf.id)
-        location.href="#/carrito"
+        // location.href="#/carrito"
+        sertifiCarrutoBD(untf.id,sertificaBD)
       }
     })
        

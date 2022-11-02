@@ -35,6 +35,7 @@ export let funcionCategotia=(producto)=>{
          crearProducto(producto);
         
        }else if (buscar.value===" ") {
+        // buscar.value.length==0
         console.log("esle if");
         crearProducto(categorias2);
        } else {
