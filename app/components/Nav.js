@@ -4,9 +4,7 @@
 let sa=(e)=>{
  if (e.target.className == "reg"){
    alert.clear
-   let a=Form()
-
-  
+    
     Swal.fire({
         width: 400,
         showCloseButton: true,
@@ -20,7 +18,7 @@ let sa=(e)=>{
         showCancelButton: true,
         title: '<strong>Sin Login  y <u> Registro</u></strong>',
         icon: 'info',
-        html:(    a||" "
+        html:(    Form()||" "
         ),
         
         
@@ -51,23 +49,22 @@ nav.innerHTML=`
         <option value="">Categorias</option>
         </select>
         </li>
+
+
         <div class="carroItem">
-
-   
-
-   
-        
-        <div class="cantidad"> </div>
-
-       
+        <div class="cantidad"> </div>      
         <i class=" a fa fa-shopping-cart carro" aria-hidden="true">
-       
-        </i>
-       
-       
-
+          </i>
         </div>
-        <div class="carroDato a">      <div>
+        
+
+        
+        <div class="carroDato2 a">
+        <div class=" finalizar  btn btn--1"> Finalizar Compra </div>
+        <div class="carroDato "><div>
+        
+        </div>
+
         </ul>
 </lu>
 

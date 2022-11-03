@@ -43,18 +43,20 @@ export class Producto{
 sumarCantidad(){
     console.log("🚀 ~ file: producto.js ~ line 44 ~ Producto ~ sumarCantidad ~ cantidad", this.cantidad)
 
-    return this.cantidad=this.cantidad+1
-   
-
+    //  return this.cantidad=this.cantidad+1
+    let a=(this.cantidad<this.stock) ?this.cantidad++ : alert("sin stock")
+    return a
 }
 restarCantidad(){
-    return   this.cantidad--
-
-}
+    //   let a=(this.cantidad>=1) ?this.cantidad-- : alert("quiere eliminar")
+      let a=(this.cantidad>=2) ?this.cantidad-- : prompt("quiere eliminar")
+      return a
     // precioTotalUnidades(unidades){
     //     let resultado = this.precioConIva * unidades;
 
     //     return alert("el total de la compra, llevando " + unidades + " es " + resultado)
     // }
 
+}
+eliminar(){}
 }

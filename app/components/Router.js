@@ -6,7 +6,7 @@ import { crearProducto } from "./TarjetasYProceso.js";
 import { ajax } from "../helpers/ajax.js";
 import url from "../helpers/urls.js";
 import { funcionCategotia } from "./Categoria.js";
-import { carritoClick ,ElementoCarrito,sumaCarro} from "./carritoClik.js";
+import { carritoClick ,ElementoCarrito,sumaCarro,finalizarCompara} from "./carritoClik.js";
 let arrayP2=JSON.parse(localStorage.getItem("arrayP1")) 
 funcionCategotia
 
@@ -17,18 +17,18 @@ export const Router = async () => {
 
     let {hash} = location;
 if (hash == "" || hash == "#/") {
-    
+    ElementoCarrito()
     carritoClick()
     sumaCarro()
      funcionBuscarP(objeto)
      funcionCategotia(objeto)
      crearProducto(objeto)
-   
+     finalizarCompara()
 
 
 }else if (hash ==`#/descripcion/${arrayP2.id}`){
 
-ElementoCarrito()
+    ElementoCarrito()
 carritoClick()
 sumaCarro()
 funcionBuscarP(objeto)

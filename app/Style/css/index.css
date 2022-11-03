@@ -19,12 +19,20 @@
   display: flex;
   gap: 10px;
 flex-direction: column;
-position: absolute;
-bottom:0; 
-right:0;
-z-index: 100;
+
+
+
 box-shadow: 1px 1px 10px 1px rgb(7, 6, 6);
 background-color: rgb(17, 5, 95);
+}
+
+.carroDato2{position: absolute;
+  bottom:1vh; 
+  right:1vw;
+  z-index: 100;
+  display: flex;
+  gap: 10px;
+flex-direction: column-reverse;
 }
 .cantidad{
    padding: 14px; 
@@ -70,7 +78,7 @@ margin: 1%;
   .carroItem{
     position: relative;
     display: flex;
-    /* width: 1px; */
+     max-width: 150px; 
     /* height: 10px; */
    /* flex-direction: column; */
   margin: 20px;
