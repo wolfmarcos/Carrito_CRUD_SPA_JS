@@ -35,6 +35,7 @@ let sa=(e)=>{
         )
         // Carritox(untf.id)
         // location.href="#/carrito"
+        
         sertifiCarrutoBD(untf.id,sertificaBD)
         sumaCarro()
       }
@@ -93,8 +94,16 @@ let sa=(e)=>{
         <h3> ${untf.stock}</h3>
         <h2>precio:</h2>
         <h3> ${untf.precio}</h3>
-        <h2>ICARRITO:</h2>
-        <button class="btn11"> Añador Al carro</button>
+        <h2>CARRITO : </h2>
+        <button class="btn11" style="
+        width: 300px;
+        aspect-ratio: 1;
+        background: hotpink;
+        font-family: monospace;
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+    "> Añadir Al carro</button>
                 
      
     

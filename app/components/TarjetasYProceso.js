@@ -65,8 +65,14 @@ export const crearProducto =async(tf)=>{
         console.log(strObjet)
         localStorage.setItem("arrayP1",strObjet)
        if (strObjet===localStorage.getItem("arrayP1")) {
-        location.href=`#/descripcion/${untf.id}`
-       } 
+        
+      
+                
+ 
+    location.href=`#/descripcion/${untf.id}`    
+    document.location.reload();
+    
+    } 
     });
     
           sumaP.append(div22)

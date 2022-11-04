@@ -48,15 +48,16 @@ sumarCantidad(){
     return a
 }
 restarCantidad(){
-    //   let a=(this.cantidad>=1) ?this.cantidad-- : alert("quiere eliminar")
-      let a=(this.cantidad>=2) ?this.cantidad-- : prompt("quiere eliminar")
-      return a
+  let a=true
+     this.cantidad>1 ?this.cantidad-- : a= false;
+      
     // precioTotalUnidades(unidades){
     //     let resultado = this.precioConIva * unidades;
 
     //     return alert("el total de la compra, llevando " + unidades + " es " + resultado)
     // }
-
+return a
 }
-eliminar(){}
+
+
 }

@@ -5,7 +5,7 @@ import { Producto } from "./producto.js";
 
 
  let productoEnStorage=JSON.parse( localStorage.getItem("productoEnStorage")) || [];
- 
+ localStorage.setItem("productoEnStorage",JSON.stringify(productoEnStorage))|| [];
 
 export class Carrito {
   
@@ -69,6 +69,7 @@ console.log("🚀 ~ file: carrito.4443333333~ index", productoEnStorage)
   localStorage.setItem("productoEnStorage",JSON.stringify(productoEnStorage))
 
   imprimeProductosAgregado(productoEnStorage)
+  document.location.reload();
 }
 
 
