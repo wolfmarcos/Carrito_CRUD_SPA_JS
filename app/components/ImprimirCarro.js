@@ -4,7 +4,6 @@
     let datos=""
     document.querySelector(".carroDato").innerHTML=""
     arrayProducto.forEach(untf => {
-        console.log("🚀 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀~ file: ImprimirCarro.js ~ line 17 ~ imprimeProductosAgregado ~ untf", untf)
     
     
    datos +=

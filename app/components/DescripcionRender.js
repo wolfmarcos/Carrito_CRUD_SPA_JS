@@ -48,14 +48,13 @@ let sa=(e)=>{
 
    des.innerHTML=`
 <div class="tarjeta2">
+<a href="index.html" rel="noopener noreferrer">
+<i class="fa-solid fa-person-walking-arrow-loop-left g"></i>
 
-           
-<a class="icov" href="index.html">
-
-    <span class=" material-symbols-outlined">
-        reply
-        </span> 
 </a>
+           
+
+
 
 
 

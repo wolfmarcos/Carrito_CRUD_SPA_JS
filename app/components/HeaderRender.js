@@ -1,12 +1,11 @@
-export const Headers= (nav)=>{
-     console.log("Heders")
+export const Headers = (nav) => {
 
      let header = document.createElement("header")
 
-header.append(nav)
-    
-   
-  
-   return header
-     
-    }
+     header.append(nav)
+
+
+
+     return header
+
+}

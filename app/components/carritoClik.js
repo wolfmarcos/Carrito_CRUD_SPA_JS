@@ -190,7 +190,6 @@ export let carritoClick=()=>{
    let verCarritoButon= document.querySelector(".carroItem");
    let verCarrito= document.querySelector(".carroDato2");
 
-   console.log("🚀 ~ file: carritoClik.js ~ line 6 ~ carritoClick ~ verCarrito", verCarrito)
    
 verCarritoButon.addEventListener("click", (e) => {
 if (true == verCarrito.classList.replace("a", "fR")) {

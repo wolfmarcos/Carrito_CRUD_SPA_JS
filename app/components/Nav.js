@@ -78,14 +78,15 @@ nav.innerHTML=`
        
 
             <li>
-                <a href="#">TODOS</a>
+                <a href="#">Inicio</a>
             </li>
             <li>
                 <a href="#">CATEGORIAS</a>
             </li>
             <li>
-                <a class="reg">reggg </a>
+                <a class="reg">Registro </a>
             </li>
+            
         </ul>             
     </div>
 </details>

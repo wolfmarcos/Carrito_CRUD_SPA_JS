@@ -58,16 +58,22 @@ select::-ms-expand {
 
  font-size: 30px;
  }
-
+.g{
+  font-size: 200px;
+  color: #fff;
+}
 .icov .material-symbols-outlined {
+  font-size: 300px;
 
-  font-family: 'Material Symbols Outlined';
+  /* font-family: 'Material Symbols Outlined';
   font-weight: normal;
   font-style: normal;
-  font-size: 100px !important;
-  margin: 30PX 20% 90PX;
+  font-size: 10000px !important;
+   margin: 30PX 20% 90PX; 
   height: 170PX;
   color: aliceblue;
+  width: 200px;
+  height: 200px; */
 
 }
 
@@ -301,10 +307,15 @@ a:hover {
 }
 
 .imgC {
-  flex: 1;
-  height: 100;
-  justify-content: center;
+  /* flex: 1; */
+  height:   55vh;; 
+  /* width: 200px */
+  /* justify-content: ; */
   /* align-self:center; */
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px ;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .img {
@@ -314,10 +325,28 @@ a:hover {
 
 }
 
+.carroDato2 .texto{
+  height:   10vh;
+  width: 40vw;
+  
+}
+.carroItem{
+position: relative;
+   z-index: 10000px; 
+display: flex;
+align-items: flex-end;
+justify-items: flex-start;
+/* flex-direction: column; */
+
+  /* background-color: #23b499 */
+}
 .texto {
   position: relative;
   margin: 0;
-  width: 100%;
+  height:   45vh;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px 
 
 }
 
@@ -387,10 +416,8 @@ a:hover {
   /* padding: 0 1px; */
 }
 
-@media screen and (max-width:920px) {
-  main {
-    /* display: flex; */
-  }
+@media screen and (max-width:420px) {
+ 
 
   .content {
     gap: 0;
@@ -423,9 +450,6 @@ a:hover {
 }
 
 
-.decimpcion{
-  Pocition:relative;
-}
 
 @media screen and (max-width:338px) {
 
@@ -442,13 +466,20 @@ a:hover {
 }
 
 
-@media screen and (min-width:660px) {
+@media screen and (min-width:760px) {
   .titulo {
     color: rgb(44, 27, 116);
     font-size: 3rem;
 
   }
 
+  .carroItem{
+    position: relative;
+    z-index: 10000px;
+    align-self: flex-start;
+    
+    
+  }
   .content {
     /* width: 20vh; */
     /* height: 99vh; */
@@ -458,7 +489,7 @@ a:hover {
     /* grid-gap: 3em; */
     /* margin-top: 10px; */
     display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, minmax(10vw, 100vh));
     justify-content: center;
   }
 

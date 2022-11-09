@@ -39,7 +39,7 @@ export const crearProducto =async(tf)=>{
     
                    <div class="col-tex">
                        <h2>
-                           Producto: 
+                           
                            <h3>  ${untf.nombre}</h>
                        </h2>
                    </div>

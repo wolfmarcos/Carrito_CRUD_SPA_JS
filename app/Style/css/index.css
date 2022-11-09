@@ -25,22 +25,27 @@ flex-direction: column;
 box-shadow: 1px 1px 10px 1px rgb(7, 6, 6);
 background-color: rgb(17, 5, 95);
 }
-
+.finalizar{ align-self:flex-end;}  
 .carroDato2{position: absolute;
-  bottom:1vh; 
-  right:1vw;
+  /* bottom:1vh;  */
+  /* right:1vw; */
   z-index: 100;
   display: flex;
   gap: 10px;
 flex-direction: column-reverse;
+/* bottom:0; */
+left: 0;
+width: 50vw;
+top: 0;
 }
 .cantidad{
    padding: 14px; 
   background-color: rgba(21, 4, 98, 0.317);
   text-align: center;
-  position: absolute;
+  position: sticky;
   border-radius: 100px;
   right: 14px;
+  bottom:0;
 
   /* background-color: chartreuse; */
 }
@@ -75,8 +80,11 @@ margin: 1%;
   color: brown;
   display: block;
   }
+  .menu_items{
+    /* position: relative; */
+  }
   .carroItem{
-    position: relative;
+    /* position: relative; */
     display: flex;
      max-width: 150px; 
     /* height: 10px; */
@@ -103,7 +111,7 @@ background-color: blue;}
 a {
   display: -webkit-box;
   display: -webkit-flex;
-  display: -moz-box;
+  display: -moz-bcarroItemox;
   display: -ms-flexbox;
   display: flex;
   text-decoration: none;
