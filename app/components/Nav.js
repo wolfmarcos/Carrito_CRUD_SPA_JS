@@ -1,38 +1,36 @@
- import { Form } from "./FormularioRender.js";
+import { Form } from "./FormularioRender.js";
 
 
-let sa=(e)=>{
- if (e.target.className == "reg"){
-   alert.clear
-    
-    Swal.fire({
-        width: 400,
-        showCloseButton: true,
- 
-        focusConfirm: false,
-        confirmButtonText:
-          '<i class="fa fa-thumbs-up"></i> Volver',
-        confirmButtonAriaLabel: 'Thumbs up, great!',
-       
-        cancelButtonAriaLabel: 'Thumbs down',
-        showCancelButton: true,
-        title: '<strong>Sin Login  y <u> Registro</u></strong>',
-        icon: 'info',
-        html:(    Form()||" "
-        ),
-        
-        
-        
-        }) 
-    
+let sa = (e) => {
+    if (e.target.className == "reg") {
+        alert.clear
 
-}}
+        Swal.fire({
+            width: 400,
+            showCloseButton: true,
 
-export const Nav= ()=>{
-  
-let nav = document.createElement('div')
-  
-nav.innerHTML=`
+            focusConfirm: false,
+            confirmButtonText:
+                '<i class="fa fa-thumbs-up"></i> Volver',
+            confirmButtonAriaLabel: 'Thumbs up, great!',
+
+            cancelButtonAriaLabel: 'Thumbs down',
+            showCancelButton: true,
+            title: '<strong>Sin Login  y <u> Registro</u></strong>',
+            icon: 'info',
+            html: (Form() || " "
+            ),
+        })
+
+
+    }
+}
+
+export const Nav = () => {
+
+    let nav = document.createElement('div')
+
+    nav.innerHTML = `
   
 <nav class="nav1">
 <div class="x"></div>
@@ -49,6 +47,7 @@ nav.innerHTML=`
         <option value="">Categorias</option>
         </select>
         </li>
+        
 
 
         <div class="carroItem">
@@ -59,10 +58,13 @@ nav.innerHTML=`
         
 
         
-        <div class="carroDato2 a">
-        <div class=" finalizar  btn btn--1"> Finalizar Compra </div>
-        <div class="carroDato "><div>
+        <div class="carroDato2 fR">
         
+        <div class=" finalizar  btn btn--1 "> Finalizar Compra </div>
+        <div class="total22">   0 </div>
+        <div class="carroDato "><div>
+
+
         </div>
 
         </ul>
@@ -94,12 +96,12 @@ nav.innerHTML=`
     <h2></h2> </div></a>
 </div>`;
 
-nav.addEventListener("click",sa)
+    nav.addEventListener("click", sa)
 
 
 
 
-  return nav;
-    
-   }
+    return nav;
+
+}
 

@@ -1,7 +1,8 @@
-const urlA="./trailerflix.json", urlB=".../helpers/trailerflix.json",
-urlC="./app/helpers/trailerflix.json";
+const   urlA = "./trailerflix.json",
+        urlB = ".../helpers/trailerflix.json",
+        urlC = "./app/helpers/trailerflix.json";
 
-export default{
+export default {
     urlA,
     urlB,
     urlC,

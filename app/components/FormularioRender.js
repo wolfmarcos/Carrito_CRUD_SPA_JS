@@ -2,14 +2,15 @@
 
 
 
-    export const Form= ()=>{
-        let Forms
-        // let Form = document.createElement('div')
-          
-         
-        Forms =`<div class="contForm">
+export const Form = () => {
+    let Forms
+    // let Form = document.createElement('div')
+
+
+    Forms = 
+    `<div class="contForm">
         <div class="divUser"></div>
-    <h1 class="login">logear</h1>
+        <h1 class="login">logear</h1>
         <form  class="fL " id="formL" >
             <div class="c  ">
                 <h2><label for="lN">email</label></h2> <input id="lN" type="email">
@@ -20,7 +21,7 @@
             <input type="submit" value="logeo" name="" id="" class="submit btn--3">
            
         </form>
-<div class="contBtn"> 
+    <div class="contBtn"> 
         <button  id="google" class="btn btn--1">            Google           </button>
     
         
@@ -44,12 +45,12 @@
     
     </div>
         `;
-         
 
-        
-        
-        
-        
-          return Forms;
-            
-           }
+
+
+
+
+
+    return Forms;
+
+}

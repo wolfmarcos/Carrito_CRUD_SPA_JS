@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   box-sizing: border-box;
 }
@@ -46,7 +46,7 @@ select::-ms-expand {
 }
 .select:hover::after {
   color: #23b499;
-}
+} */
 
 
 .ico-nav {
@@ -270,10 +270,8 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 80%;
   justify-content: center;
-
-
 }
 .tarjeta2 {
   width: 100vw;
@@ -308,7 +306,7 @@ a:hover {
 
 .imgC {
   /* flex: 1; */
-  height:   55vh;; 
+  height:   60vh;; 
   /* width: 200px */
   /* justify-content: ; */
   /* align-self:center; */
@@ -323,6 +321,9 @@ a:hover {
   width: 100%;
   object-fit: cover;
 
+}
+.carritoUnidad{
+  overflow-y: scroll;
 }
 
 .carroDato2 .texto{
@@ -343,13 +344,25 @@ justify-items: flex-start;
 .texto {
   position: relative;
   margin: 0;
-  height:   45vh;
+  height:   27vh;
   display: flex;
   justify-content: space-around;
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px 
 
 }
+.total22{
+  font-size: 30px;
+  background-color:  #08225b;
+  width: 500px;
+  height: 80px;
+  align-self: flex-end;
+  /* display: flex; */
+  /* flex-direction: row; */
+  text-align: center;
+  padding: 30px 30px 30px;
+  border-radius: 30px;
 
+}
 .col-tex2 {
   display: flex;
   width: 100%;

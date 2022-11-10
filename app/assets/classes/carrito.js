@@ -10,13 +10,10 @@ import { Producto } from "./producto.js";
 export class Carrito {
   
   constructor(sertificaBD ){
-   /*  */ // sertificaProducto
+
     this.total=0;
-  //  this.cantidad=0;
    this.sertificaBD=sertificaBD;
-   console.log("🚀 ~ file: carrito.js ~ line 16 ~ Carrito ~ constructor ~ sertificaBD", sertificaBD)
 }
-// entro(){console.log("Entr");}
 
 cantidad(stocks){
   if (isNaN(stocks)) {
@@ -28,32 +25,22 @@ cantidad(stocks){
 }
 
 
-// get produget(){
-//  let ProductoCarrito2=this.sertificaBD
-//  return ProductoCarrito2
-// }
-
-// set produset(ProductoCarrito2){
-//   this.sertificaBD=ProductoCarrito2
-//  }
 
 agrega(){
-
+  // totalP()
   let ProductoCarrito=this.sertificaBD  
 let index = productoEnStorage.findIndex(({id}) => id === ProductoCarrito.id)
-// (({id})=>id==ProductoCarrito.id)
+
 
 if(index>-1){
   let aryProd=new Producto(productoEnStorage[index].id,productoEnStorage[index].nombre,productoEnStorage[index].descripcion, productoEnStorage[index].stock,productoEnStorage[index].precio,productoEnStorage[index].cantidad)
-  console.log("iiiiiiiiiiiiiiii🚀 ~ file: carrito.js ~ line 45 ~ Carrito ~ agrega ~ aryProd", aryProd)
 
 
             console.log(aryProd);
-            let cantidad=aryProd.sumarCantidad()
-           console.log("===================================", cantidad)
+            // let cantidad=
+            aryProd.sumarCantidad()
            aryProd.decontarStock(ProductoCarrito.stock)
            productoEnStorage[index]={...aryProd}
-           console.log("🚀 ~ file: carrito.js ~ line 60 ~ Carrito ~ agrega ~ aryProd", aryProd)
 
 }else{
 
@@ -62,35 +49,26 @@ if(index>-1){
   productoEnStorage.push(aryProd)
 
 }
-console.log("🚀 ~ file: carrito.4443333333~ index", productoEnStorage)
 
 
 
   localStorage.setItem("productoEnStorage",JSON.stringify(productoEnStorage))
-
-  imprimeProductosAgregado(productoEnStorage)
+  
+   imprimeProductosAgregado(productoEnStorage)
   document.location.reload();
+  
+
 }
 
 
 
- total(){
-  console.log("🚀 ~ file: carrito.js ~ line 92 ~ Carrito ~ total ~ productoEnStorage", productoEnStorage)
- 
-  let totalF  = productoEnStorage.reduce((acc,cada) => {
-    return acc+Number(cada.precio)
-  })
-  console.log("🚀 ~ file: carrito.js ~ line 87 ~ Carrito ~ total ~ totalF", totalF)
 
-  this.total =totalF
-  // return total 
- }
+// GuardaTocal(){
+//   document.querySelector(".total").innerHTML = "-----------------------this.total"
 
-GuardaTocal(){
 
-document.querySelector(".total").innerHTML=total()
-localStorage.setItem("total",this.total)
-}
+// localStorage.setItem("total",this.total)
+// }
 
 
 

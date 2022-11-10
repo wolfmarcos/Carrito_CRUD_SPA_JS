@@ -1,54 +1,53 @@
- import { sumaCarro } from "./carritoClik.js";
-import { sertifiCarrutoBD } from "./Carritox.js";
+import { sumaCarro } from "./carritoClik.js";
+import { sertifiCarrutoBD } from "./certificaClick.js";
 
 // import { Carritox } from "./AlCarro.js";
-export const Descrpcion= (untf,sertificaBD) => {
-  
+export const Descrpcion = (untf, sertificaBD) => {
 
 
 
+
+
+  let des = document.createElement('div');
+
+
+  let sa = (e) => {
+    if (e.target.className == "btn11") {
+
+      //   let a=Form()
+
+
+
+      Swal.fire({
+        title: 'Quiere añadir al carro?',
+        text: "se agregara este producto al carro!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'si, añador al carrito!'
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire(
+            'Añadido!',
+            'Perfecto, gracias',
+            'success'
+          )
     
-let des= document.createElement('div');
+          sertifiCarrutoBD(untf.id, sertificaBD)
+          sumaCarro()
+        }
+      })
 
 
-let sa=(e)=>{
-    if (e.target.className == "btn11"){
-    
-    //   let a=Form()
-   
-     
-   
-    Swal.fire({
-      title: 'Quiere añadir al carro?',
-      text: "se agregara este producto al carro!",
-      icon: 'warning',
-      showCancelButton: true,
-      confirmButtonColor: '#3085d6',
-      cancelButtonColor: '#d33',
-      confirmButtonText: 'si, añador al carrito!'
-    }).then((result) => {
-      if (result.isConfirmed) {
-        Swal.fire(
-          'Añadido!',
-          'Perfecto, gracias',
-          'success'
-        )
-        // Carritox(untf.id)
-        // location.href="#/carrito"
-        
-        sertifiCarrutoBD(untf.id,sertificaBD)
-        sumaCarro()
-      }
-    })
-       
-   
-   }}
+    }
+  }
 
 
 
-   des.innerHTML=`
+  des.innerHTML = `
 <div class="tarjeta2">
-<a href="index.html" rel="noopener noreferrer">
+<a href="index.html" >
 <i class="fa-solid fa-person-walking-arrow-loop-left g"></i>
 
 </a>
@@ -111,14 +110,13 @@ let sa=(e)=>{
 </div>             `
 
 
-des.addEventListener("click",sa)
+  des.addEventListener("click", sa)
 
- 
-   return des;
-   }
-   
-  
- 
- 
 
-    
+  return des;
+}
+
+
+
+
+

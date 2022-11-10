@@ -8,16 +8,16 @@ import { Router } from "./components/Router.js";
 
 export const App = async () => {
         const docu = document.querySelector("#root");
-         docu.innerHTML=""
+        docu.innerHTML = ""
         docu.innerHTML += '<h1 class="titulo">Comercio</h1>';
 
         docu.appendChild(Headers(Nav()));
         docu.appendChild(Main());
 
 
-       
-   
-        
+
+
+
         Router()
 }
 
